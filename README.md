@@ -17,9 +17,15 @@ FROM ghcr.io/jaegertracing/base-image-with-debugger:latest
 # ... your build steps ...
 ```
 
+## Releases
+
+The container image is only pushed on published GitHub Releases.
+
 ## Maintenance
 
 The versions of the base image and Delve are managed by Renovate.
+
+https://developer.mend.io/github/jaegertracing/base-image-with-debugger
 
 ## Local Development
 
